@@ -38,6 +38,7 @@ pytest -m regression
 ``` 
 
 ## API Tests
+API tests include positive and negative scenarios for GET, POST, PUT, and DELETE endpoints with response validation using Postman test scripts.
 
 1. Import Postman collection from postman/collections
 2. Import environment from postman/environments
