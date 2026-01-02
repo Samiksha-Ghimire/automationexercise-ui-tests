@@ -1,19 +1,19 @@
-UI and API Automation Project
+# UI and API Automation Project
 
 This repository contains UI automation tests and API automation tests implemented as part of QA automation practice.
 
-Tools and Technologies
+## Tools and Technologies
 
-UI Automation:
+### UI Automation:
 - Python
 - Playwright
 - Pytest
 
-API Automation:
+### API Automation:
 - Postman
 - JavaScript (Postman test scripts)
 
-UI Automation Structure
+## UI Automation Structure
 
 - Page Object Model is used for UI automation
 - Tests are classified into smoke, sanity, and regression
@@ -21,28 +21,23 @@ UI Automation Structure
 - Sanity tests validate core flows after changes
 - Regression tests cover end-to-end scenarios and edge cases
 
-API Automation Structure
+## API Automation Structure
 
 - CRUD API testing using Postman
 - Positive and negative scenarios
 - Environment variables used for base URL
 - Collections and environments are stored under the postman folder
 
-How to Run UI Tests
+## How to Run UI Tests
 
-1. Install dependencies
-   pip install -r requirements.txt
+``` bash
+pip install -r requirements.txt
+pytest -m smoke
+pytest -m sanity
+pytest -m regression
+``` 
 
-2. Run smoke tests
-   pytest -m smoke
-
-3. Run sanity tests
-   pytest -m sanity
-
-4. Run regression tests
-   pytest -m regression
-
-API Tests
+## API Tests
 
 1. Import Postman collection from postman/collections
 2. Import environment from postman/environments
