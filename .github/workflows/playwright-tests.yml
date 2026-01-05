@@ -30,6 +30,7 @@ jobs:
           pip install -r requirements.txt
           python -m playwright install --with-deps
 
-      - name: Run tests
-        run: |
-          python -m pytest
+      - name: Run smoke tests
+  run: |
+    python -m pytest -m smoke
+
