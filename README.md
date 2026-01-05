@@ -1,5 +1,7 @@
-# UI and API Automation Project
+[![Playwright UI Tests](https://github.com/Samiksha-Ghimire/automationexercise-ui-tests/actions/workflows/playwright-tests.yml/badge.svg)](https://github.com/Samiksha-Ghimire/automationexercise-ui-tests/actions/workflows/playwright-tests.yml)
 
+# UI and API Automation Project
+UI tests are automatically executed on every push using GitHub Actions CI.
 This repository contains UI automation tests and API automation tests implemented as part of QA automation practice.
 
 ## Tools and Technologies
