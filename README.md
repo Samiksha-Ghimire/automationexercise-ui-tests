@@ -2,6 +2,7 @@
 
 # UI and API Automation Project
 UI tests are automatically executed on every push using GitHub Actions CI.
+UI smoke tests are automatically executed on every push using GitHub Actions CI, with HTML reports generated and uploaded as artifacts.
 This repository contains UI automation tests and API automation tests implemented as part of QA automation practice.
 
 ## Tools and Technologies
@@ -19,7 +20,7 @@ This repository contains UI automation tests and API automation tests implemente
 
 - Page Object Model is used for UI automation
 - Tests are classified into smoke, sanity, and regression
-- Smoke tests validate basic availability
+- Smoke tests validate basic application availability and critical functionality
 - Sanity tests validate core flows after changes
 - Regression tests cover end-to-end scenarios and edge cases
 
